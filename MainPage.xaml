@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Entry x:Name ="entry" MaximumWidthRequest="500" WidthRequest="450"  Placeholder="What math operations do you want to do?" ></Entry>
+                <Button x:Name="BtnEnter" Text="Enter" SemanticProperties.Hint="xPuts a minus sign in your input" Clicked="Enter" BorderWidth="2" WidthRequest="80" HorizontalOptions="Center"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+
+                <Button 
+                x:Name="Btn1"
+                Text="+"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Plus"
+                BorderWidth="2"
+                HorizontalOptions="Center" />
+
+                <Button
+                x:Name="Btn2"
+                Text="-"
+                SemanticProperties.Hint="xPuts a minus sign in your input"
+                Clicked="Minus"
+                BorderWidth="2"
+                HorizontalOptions="Center"/>
+
+                <Button
+                x:Name="BtnBackSpace"
+                Text="Backspace"
+                SemanticProperties.Hint="xPuts a minus sign in your input"
+                Clicked="Backspace"
+                BorderWidth="2"
+                WidthRequest="100"
+                HorizontalOptions="Center"/>
+
+                <Label
+                 Text=""
+                    x:Name="resulttt"
+                 SemanticProperties.HeadingLevel="Level2"
+                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                 FontSize="18"
+                 HorizontalOptions="Center" />
+                <Label
+  Text=""
+     x:Name="result2"
+  SemanticProperties.HeadingLevel="Level2"
+  SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+  FontSize="18"
+  HorizontalOptions="Center" />
+            </StackLayout>
+            
+           
+
+           
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Button 
+                 x:Name="B1"
+                 Text="1"
+                 SemanticProperties.Hint="Puts a plus sign in your input"
+                 Clicked="Print"
+                 BorderWidth="2"
+                 HorizontalOptions="Center" />
+                 <Button 
+                x:Name="B2"
+                Text="2"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Print"
+                BorderWidth="2"
+                HorizontalOptions="Center" />               
+                 <Button 
+                x:Name="B3"
+                Text="3"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Print"
+                BorderWidth="2"
+                HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Button 
+                x:Name="B4"
+                Text="4"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Print"
+                BorderWidth="2"
+                HorizontalOptions="Center" />
+                <Button 
+                x:Name="B5"
+                Text="5"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Print"
+                BorderWidth="2"
+                HorizontalOptions="Center" />
+                <Button 
+                x:Name="B6"
+                Text="6"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Print"
+                BorderWidth="2"
+                HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Button 
+                x:Name="B7"
+                Text="7"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Print"
+                BorderWidth="2"
+                HorizontalOptions="Center" />
+                <Button 
+                x:Name="B8"
+                Text="8"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Print"
+                BorderWidth="2"
+                HorizontalOptions="Center" />
+                <Button 
+                x:Name="B9"
+                Text="9"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Print"
+                BorderWidth="2"
+                HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center" >
+                <Button 
+                x:Name="B0"
+                Text="0"
+                SemanticProperties.Hint="Puts a plus sign in your input"
+                Clicked="Print"
+                BorderWidth="2"
+                WidthRequest="150"
+                HorizontalOptions="Center" />
+               
+            </StackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
