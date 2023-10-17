@@ -55,13 +55,17 @@ namespace MAUI
             txt = txt + "+";
 
         }
+        private void DeleteLog(object sender, EventArgs e)
+        {
+            result2.Text = "";
+        }
         private void Enter(object sender, EventArgs e)
         {
 
             char[] stream = new char[entry.Text.Length];
-            int[] ints = new int[8];
+            int[] ints = new int[15];
             char[] ops = new char[ints.Length / 2];
-
+            int it = 0;
             string numb="";
             int ii = 0;
 
@@ -83,18 +87,34 @@ namespace MAUI
                 iterator++;
             }
 
-
-            foreach (int j in ints)
-            {
-                result2.Text += j.ToString() + ".";
-            }
+            // generating log
+            foreach (int j in ints){ result2.Text += j.ToString() + "."; }
             result2.Text += "|| ";
+            foreach (char c in ops){ result2.Text += c + " " ; }
 
-            foreach (char c in ops)
+            if (ops.Length % 2!=0)
             {
-                result2.Text += c + " " ;
+                for (int q = 0; q < ops.Length; q++)
+                {
+                    q = q + 1;
+                    if (ops[it] == '+') { result += (ints[q] + ints[q + 1]); }
+                    if (ops[it] == '-') { result += (ints[q] - ints[q + 1]); }
+                    it++;
+                   
+                }
             }
-            for (int q=0; q<ops.Length; q++) { if (ops[q] == '+') { result += (ints[q] + ints[q + 1]); } }
+            if(ops.Length%2==0)
+            {
+                for (int q = 0; q < ops.Length; q++)
+                {
+                    
+                    if (ops[q] == '+') { result += (ints[q] + ints[q + 1]); }
+                    if (ops[q] == '-') { result += (ints[q] - ints[q + 1]); }
+
+
+                }
+            }
+            
             entry.Text = result.ToString();
         }
 
