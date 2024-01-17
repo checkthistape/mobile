@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BOjWCli4AwPtnpcwrHfeyQhampF24uQW9gZ0ePHEzcUWVhILN33sq3VcNkbubMEaxeCkeIxg5TFxoznlMP85qw==",
+  "dgSpecHash": "nVCOsvu/6pD62s0TVzhRHPCU3QyNjWVFeDFV9aLvWs1b1PXhoFyt1UO8fbhlZfNEFFNolGb+BcG/QavD0Lf0uQ==",
   "success": true,
-  "projectFilePath": "D:\\Coding\\filmweb\\filmweb\\filmweb.csproj",
+  "projectFilePath": "D:\\Coding\\filmWebb\\mobile\\filmweb\\filmweb.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\checkthistape\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\checkthistape\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\checkthistape\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\checkthistape\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

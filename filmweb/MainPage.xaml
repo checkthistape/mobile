@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="filmweb.MainPage">
+             x:Class="filmweb.MainPage"
+             
+             xmlns:viewmodel="clr-namespace:filmweb.ViewModel"
+            
+             x:DataType="viewmodel:MainViewModel"
+             
+             >
 
     <ScrollView>
         <VerticalStackLayout
@@ -11,7 +17,7 @@
 
 
             <VerticalStackLayout>
-                
+               
 
             </VerticalStackLayout>
 
@@ -54,12 +60,21 @@
             
             
             <HorizontalStackLayout >
-                
-                <CollectionView x:Name="collectionView" ItemsLayout="VerticalList" SelectionMode="None" Margin="0, 0, 0, 40">
+
+                <CollectionView x:Name="collectionView" ItemsLayout="VerticalList" SelectionMode="None" Margin="0, 0, 0, 40" IsEnabled="False">
+
+                    <CollectionView.GestureRecognizers>
+                     <TapGestureRecognizer
+                          Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=TapCommand}"
+                          CommandParameter="{Binding .}"/>
+
+                    </CollectionView.GestureRecognizers>
             
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Grid WidthRequest="1200" >
+                            
+                            
+                            <Grid WidthRequest="1200" Margin="0, 3">
                                 <Grid.ColumnDefinitions>
 
                                     <ColumnDefinition Width=".98*"/>
@@ -67,8 +82,21 @@
                                     
                                 </Grid.ColumnDefinitions>
 
-                                <Frame Margin="0" WidthRequest="600" HeightRequest="200"  Grid.Column="0" Grid.Row="0">
+                                <Frame Margin="0" WidthRequest="600" HeightRequest="200"  Grid.Column="0" Grid.Row="0" IsEnabled="False">
+                                    <Frame.GestureRecognizers>
+                                        <!--<TapGestureRecognizer
+                                            Command="{Binding OnCounterClicked}" Tapped="Toast"/>-->
+                                        
+                                        <TapGestureRecognizer
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=TapCommand}"
+                                            CommandParameter="{Binding .}"
+                                            
+                                            
+                                            />
 
+                                    </Frame.GestureRecognizers>
+                                    
+                                    
                                     <Grid>
                                         <!--<Grid.ColumnDefinitions 
 
@@ -84,24 +112,41 @@
                                             <RowDefinition Height=".1*"/>
                                         </Grid.RowDefinitions>
 
-                                        <Image Source="{Binding ImageURL}" Grid.Column="0" Grid.Row="0" MaximumWidthRequest="600" MaximumHeightRequest="900" WidthRequest="600" HeightRequest="900" HorizontalOptions="Start">
-                                            <Image.Behaviors>
+                                        <Image Source="{Binding .}" Grid.Column="0" Grid.Row="0" MaximumWidthRequest="600" MaximumHeightRequest="900" WidthRequest="600" HeightRequest="900" HorizontalOptions="Start" IsEnabled="False">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel} }, Path=TapCommand}"
+                                            CommandParameter="{Binding .}"/>
                                                 <!--<blur:BlurBehavior Radius="66" />-->
-                                            </Image.Behaviors>
+                                            </Image.GestureRecognizers>
 
                                         </Image>
 
-                                            <HorizontalStackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="100" Grid.RowSpan="1">
+                                            <HorizontalStackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="150" Grid.RowSpan="5">
                                             <!--<Label Text="{Binding FilmId}" FontSize="Medium" FontAttributes="Bold"/>-->
-                                            <Label Text="{Binding FilmName}" FontSize="30" FontAttributes="Bold" FontFamily="Sheron"/>
-                                        </HorizontalStackLayout>
+                                            <Label Text="{Binding .}" FontSize="30" FontAttributes="Bold" FontFamily="Sheron"/>
+                                            </HorizontalStackLayout>
                                     </Grid>
                                 </Frame>
 
                                 <HorizontalStackLayout HorizontalOptions="Start" WidthRequest="1000" Grid.Column="1" Grid.Row="0" Margin="30, 0, 0, 0" VerticalOptions="Center">
                                     <VerticalStackLayout>
-                                        <Label FontSize="40" Text="{Binding FilmName}"></Label>
+                                        <Label FontSize="40" Text="{Binding .}"></Label>
                                         <Label Text="yoyo" FontSize="30" FontAttributes="None" FontFamily="Sheron" TextColor="Gray"/>
+                                        <Label Text="Rating"></Label>
+
+
+                                        <Button
+                                            Text="yoyooy" BackgroundColor="Red"
+                                            Command="{Binding TapCommand}"
+                                            CommandParameter="{Binding .}"
+                                            
+                                            >
+                                            
+                                            
+                                        </Button>
+                                        
+                                        
                                     </VerticalStackLayout>
                                     
                                 </HorizontalStackLayout>

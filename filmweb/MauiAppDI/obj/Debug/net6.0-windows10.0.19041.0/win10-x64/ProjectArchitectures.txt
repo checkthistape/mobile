@@ -1,0 +1,2 @@
+C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI.Shared\MauiAppDI.Shared.csproj;neutral
+C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\MauiAppDI.csproj;x64

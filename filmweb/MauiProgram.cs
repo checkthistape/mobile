@@ -1,4 +1,6 @@
-﻿namespace filmweb;
+﻿using filmweb.ViewModel;
+
+namespace filmweb;
 
 public static class MauiProgram
 {
@@ -12,6 +14,12 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
+
+		builder.Services.AddSingleton<MainPage>();
+		builder.Services.AddSingleton<MainViewModel>();
+
+		builder.Services.AddTransient<DetailPage>();
+		builder.Services.AddTransient<DetailViewModel>();
 
 		return builder.Build();
 	}

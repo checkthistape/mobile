@@ -11,6 +11,8 @@ namespace filmweb.Models
         public int FilmId { get; set; }
         public string FilmName { get; set; }
         public ImageSource ImageURL { get; set; }
+
+        public string Description { get; set; }
         public double Rating { get; set; }
         public int Date_added { get; set; }
     }

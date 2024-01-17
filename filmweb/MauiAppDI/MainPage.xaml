@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:MauiAppDI.ViewModel"
+             x:Class="MauiAppDI.MainPage">
+             <!--:DataType="viewmodel:MainViewModel"-->
+             
+             
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30">
+
+            <Label 
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="{Binding Count, StringFormat='Current count: {0}'}"
+                FontSize="18"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+            <Button 
+                Text="Click me"
+                FontAttributes="Bold"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Command="{Binding IncrementCountCommand}"
+                HorizontalOptions="Center" />
+
+            <HorizontalStackLayout>
+              
+
+                <CollectionView x:Name="collectionView" ItemsLayout="VerticalList" SelectionMode="Single" Margin="0, 0, 0, 40" WidthRequest="1800">
+
+                    
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+
+
+                            <Grid WidthRequest="1200" Margin="0, 3">
+                                <Grid.ColumnDefinitions>
+
+                                    <ColumnDefinition Width=".98*"/>
+                                    <ColumnDefinition Width=".91*"/>
+
+                                </Grid.ColumnDefinitions>
+
+                                
+
+                                <Frame Margin="0" WidthRequest="600" HeightRequest="200"  Grid.Column="0" Grid.Row="0" IsEnabled="False">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="NextPageNavigation" NumberOfTapsRequired="1"/>
+                                    </Frame.GestureRecognizers>
+
+
+                                    <Grid>
+                 
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height=".7*"/>
+                                            <RowDefinition Height=".1*"/>
+                                        </Grid.RowDefinitions>
+
+                                        <Image Source="{Binding ImageURL}" Grid.Column="0" Grid.Row="0" MaximumWidthRequest="600" MaximumHeightRequest="900" WidthRequest="600" HeightRequest="900" HorizontalOptions="Start" IsEnabled="False">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="NextPageNavigation" NumberOfTapsRequired="1"/>
+                                                
+                                            </Image.GestureRecognizers>
+
+                                        </Image>
+                                        
+
+                                        <HorizontalStackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="150" Grid.RowSpan="5">
+                                            
+                                            <Label Text="{Binding FilmName}" FontSize="30" FontAttributes="Bold" FontFamily="Sheron"/>
+                                            
+                                        </HorizontalStackLayout>
+                                    </Grid>
+                                </Frame>
+
+                                <HorizontalStackLayout HorizontalOptions="Start" WidthRequest="1000" Grid.Column="1" Grid.Row="0" Margin="30, 0, 0, 0" VerticalOptions="Center">
+                                    <VerticalStackLayout>
+                                        
+                                        <VerticalStackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="NextPageNavigation" NumberOfTapsRequired="1"/>
+                                        </VerticalStackLayout.GestureRecognizers>
+                                        
+                                        <Label FontSize="40" Text="{Binding FilmName}"></Label>
+                                        <Label Text="yoyo" FontSize="30" FontAttributes="None" FontFamily="Sheron" TextColor="Gray"/>
+                                        <Label Text="Rating"></Label>
+                                        
+                                    </VerticalStackLayout>
+
+                                </HorizontalStackLayout>
+
+
+
+                            </Grid>
+
+
+
+
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+
+                </CollectionView>
+               
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+
+                <!--<CollectionView x:Name="pagesHor" ItemsLayout="HorizontalList" SelectionMode="Single"  WidthRequest="500" HeightRequest="50" HorizontalOptions="Center" Background="Green">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid WidthRequest="500" HeightRequest="30" BackgroundColor="Red">
+
+                                <Grid.ColumnDefinitions>
+
+                                    <ColumnDefinition Width=".60*"/>
+                                    
+
+                                </Grid.ColumnDefinitions>
+
+                                <HorizontalStackLayout>
+                                    <Label Text="{Binding PageId}" Grid.Column="0" Grid.Row="0" FontAttributes="Bold" TextColor="White"/>
+                                    
+                                </HorizontalStackLayout>
+                                
+
+                            </Grid>
+
+
+                        </DataTemplate>
+
+
+                    </CollectionView.ItemTemplate>
+                </CollectionView>-->
+
+                <ListView x:Name="pagesHor">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="400"/>
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+
+                                    </Grid.RowDefinitions>
+
+                                    <Label Grid.Column="0" Grid.Row="0"
+                           Text="{Binding Pages.YourProperty}"
+                           FontAttributes="Bold" />
+
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    
+                </ListView>
+                
+            </HorizontalStackLayout>
+            
+            
+            
+            <Button 
+                Text="Navigate"
+                FontAttributes="Bold"
+                Command="{Binding NavigateCommand}"
+                HorizontalOptions="Center" />
+
+
+            <Button 
+                Text="Request Bluetooth"
+                FontAttributes="Bold"
+                Command="{Binding RequestBluetoothCommand}"
+                IsVisible="{OnPlatform Android=true, Default=false}"
+                HorizontalOptions="Center" />
+
+
+            <Button 
+                Text="Check Internet"
+                FontAttributes="Bold"
+                Clicked="NextPageNavigation"
+                HorizontalOptions="Center" />
+
+            <Button 
+                Text="Go To MainPage"
+                FontAttributes="Bold"
+                Clicked="NextPageMain"
+                HorizontalOptions="Center" />
+
+            <Button 
+                Text="Message Alert"
+                FontAttributes="Bold"
+                Clicked="DisplayMsg"
+                HorizontalOptions="Center" />
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                WidthRequest="250"
+                HeightRequest="310"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

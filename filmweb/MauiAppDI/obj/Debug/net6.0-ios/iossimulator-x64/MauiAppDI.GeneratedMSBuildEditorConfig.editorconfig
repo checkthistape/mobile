@@ -1,0 +1,46 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiAppDI
+build_property.ProjectDir = C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\
+
+[C:/Users/checkthistape/Desktop/MauiApp-DI/MauiAppDI/MauiAppDI/AnotherPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppDI.AnotherPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AnotherPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AnotherPage.xaml
+
+[C:/Users/checkthistape/Desktop/MauiApp-DI/MauiAppDI/MauiAppDI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppDI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/checkthistape/Desktop/MauiApp-DI/MauiAppDI/MauiAppDI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppDI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/checkthistape/Desktop/MauiApp-DI/MauiAppDI/MauiAppDI/DetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppDI.DetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DetailPage.xaml
+
+[C:/Users/checkthistape/Desktop/MauiApp-DI/MauiAppDI/MauiAppDI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppDI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/checkthistape/Desktop/MauiApp-DI/MauiAppDI/MauiAppDI/Resources/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppDI.Resources.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles.xaml

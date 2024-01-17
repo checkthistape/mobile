@@ -7,33 +7,87 @@ build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = filmweb
-build_property.ProjectDir = D:\Coding\filmweb\filmweb\
+build_property.ProjectDir = D:\Coding\filmWebb\mobile\filmweb\
 
-[D:/Coding/filmweb/filmweb/App.xaml]
+[D:/Coding/filmWebb/mobile/filmweb/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = filmweb.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Coding/filmweb/filmweb/AppShell.xaml]
+[D:/Coding/filmWebb/mobile/filmweb/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = filmweb.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Coding/filmweb/filmweb/MainPage.xaml]
+[D:/Coding/filmWebb/mobile/filmweb/DetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = filmweb.DetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DetailPage.xaml
+
+[D:/Coding/filmWebb/mobile/filmweb/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = filmweb.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/Coding/filmweb/filmweb/Resources/Styles/Colors.xaml]
+[D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/AnotherPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = filmweb.MauiAppDI.AnotherPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MauiAppDI\AnotherPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MauiAppDI\AnotherPage.xaml
+
+[D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = filmweb.MauiAppDI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = MauiAppDI\App.xaml
+build_metadata.AdditionalFiles.RelativePath = MauiAppDI\App.xaml
+
+[D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = filmweb.MauiAppDI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = MauiAppDI\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = MauiAppDI\AppShell.xaml
+
+[D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/DetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = filmweb.MauiAppDI.DetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MauiAppDI\DetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MauiAppDI\DetailPage.xaml
+
+[D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = filmweb.MauiAppDI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MauiAppDI\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MauiAppDI\MainPage.xaml
+
+[D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = filmweb.MauiAppDI.obj.Debug.net6._0_windows10._0._19041._0.win10_x64.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+
+[D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = filmweb.MauiAppDI.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = MauiAppDI\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = MauiAppDI\Platforms\Windows\App.xaml
+
+[D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/Resources/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = filmweb.MauiAppDI.Resources.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = MauiAppDI\Resources\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = MauiAppDI\Resources\Styles.xaml
+
+[D:/Coding/filmWebb/mobile/filmweb/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = filmweb.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Coding/filmweb/filmweb/Resources/Styles/Styles.xaml]
+[D:/Coding/filmWebb/mobile/filmweb/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = filmweb.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
