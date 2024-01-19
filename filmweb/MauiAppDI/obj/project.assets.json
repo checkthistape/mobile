@@ -25494,11 +25494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI\\MauiAppDI.csproj",
+      "projectUniqueName": "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI\\MauiAppDI.csproj",
       "projectName": "MauiAppDI",
-      "projectPath": "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI\\MauiAppDI.csproj",
+      "projectPath": "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI\\MauiAppDI.csproj",
       "packagesPath": "C:\\Users\\checkthistape\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI\\obj\\",
+      "outputPath": "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -25524,32 +25524,32 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "projectReferences": {
-            "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj": {
-              "projectPath": "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj"
+            "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj": {
+              "projectPath": "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj"
             }
           }
         },
         "net6.0-ios16.0": {
           "targetAlias": "net6.0-ios",
           "projectReferences": {
-            "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj": {
-              "projectPath": "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj"
+            "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj": {
+              "projectPath": "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj"
             }
           }
         },
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj": {
-              "projectPath": "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj"
+            "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj": {
+              "projectPath": "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj"
             }
           }
         },
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj": {
-              "projectPath": "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj"
+            "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj": {
+              "projectPath": "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI.Shared\\MauiAppDI.Shared.csproj"
             }
           }
         }

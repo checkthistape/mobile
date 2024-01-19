@@ -10,3 +10,15 @@ C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI.Shared\obj\Debug\n
 C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI.Shared\obj\Debug\net6.0\refint\MauiAppDI.Shared.dll
 C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI.Shared\obj\Debug\net6.0\MauiAppDI.Shared.pdb
 C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI.Shared\obj\Debug\net6.0\ref\MauiAppDI.Shared.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\bin\Debug\net6.0\MauiAppDI.Shared.deps.json
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\bin\Debug\net6.0\MauiAppDI.Shared.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\bin\Debug\net6.0\MauiAppDI.Shared.pdb
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\obj\Debug\net6.0\MauiAppDI.Shared.csproj.AssemblyReference.cache
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\obj\Debug\net6.0\MauiAppDI.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\obj\Debug\net6.0\MauiAppDI.Shared.AssemblyInfoInputs.cache
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\obj\Debug\net6.0\MauiAppDI.Shared.AssemblyInfo.cs
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\obj\Debug\net6.0\MauiAppDI.Shared.csproj.CoreCompileInputs.cache
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\obj\Debug\net6.0\MauiAppDI.Shared.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\obj\Debug\net6.0\refint\MauiAppDI.Shared.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\obj\Debug\net6.0\MauiAppDI.Shared.pdb
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\obj\Debug\net6.0\ref\MauiAppDI.Shared.dll

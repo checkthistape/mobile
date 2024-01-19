@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>1AAF1DBF-87B4-4B88-BA06-76CFEA4BA881</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>199DAA77662367A6A707D153A5F5BE6DC687E66405AEAA94195306912048DD13</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1AAF1DBF-87B4-4B88-BA06-76CFEA4BA881_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1AAF1DBF-87B4-4B88-BA06-76CFEA4BA881_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,32 +27,32 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-17T23:09:06.338</Modified>
+      <Modified>2024-01-19T19:13:01.634</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-17T23:09:05.872</Modified>
+      <Modified>2024-01-19T19:13:01.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiAppDI.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiAppDI.runtimeconfig.json">
       <PackagePath>MauiAppDI.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-17T19:10:43.882</Modified>
+      <Modified>2024-01-18T21:41:14.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiAppDI.dll">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiAppDI.dll">
       <PackagePath>MauiAppDI.dll</PackagePath>
-      <Modified>2024-01-17T23:09:04.889</Modified>
+      <Modified>2024-01-19T19:13:00.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI.Shared\bin\Debug\net6.0-windows10.0.19041.0\MauiAppDI.Shared.dll">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\bin\Debug\net6.0-windows10.0.19041.0\MauiAppDI.Shared.dll">
       <PackagePath>MauiAppDI.Shared.dll</PackagePath>
-      <Modified>2024-01-17T19:10:31.738</Modified>
+      <Modified>2024-01-18T21:40:56.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiAppDI.exe</PackagePath>
-      <Modified>2024-01-17T23:09:04.907</Modified>
+      <Modified>2024-01-19T19:13:00.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1070,9 +1070,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiAppDI.deps.json">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiAppDI.deps.json">
       <PackagePath>MauiAppDI.deps.json</PackagePath>
-      <Modified>2024-01-17T23:09:06.102</Modified>
+      <Modified>2024-01-19T19:13:01.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1086,179 +1086,179 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2022-09-27T19:21:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-01-17T19:04:28.966</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
       <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-01-17T19:10:41.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-125.png">
       <PackagePath>appiconfgSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-01-17T19:10:41.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-150.png">
       <PackagePath>appiconfgSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-01-17T19:10:41.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-200.png">
       <PackagePath>appiconfgSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-01-17T19:10:41.364</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-400.png">
       <PackagePath>appiconfgSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-01-17T19:10:41.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-01-17T19:04:28.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-01-17T19:04:28.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2024-01-17T19:10:41.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-01-17T19:10:41.693</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2024-01-17T19:10:41.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2024-01-17T19:10:41.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2024-01-17T19:10:41.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-01-17T19:10:41.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-01-17T19:10:41.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2024-01-17T19:10:41.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2024-01-17T19:10:41.531</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2024-01-17T19:10:41.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2024-01-17T19:10:41.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2024-01-17T19:10:41.585</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2024-01-17T19:10:41.591</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2024-01-17T19:10:41.600</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2024-01-17T19:10:41.611</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2024-01-17T19:10:41.627</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2024-01-17T19:10:41.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2024-01-17T19:10:41.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2024-01-17T19:10:41.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2024-01-17T19:10:41.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2024-01-17T19:10:41.581</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2024-01-17T19:10:41.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2024-01-17T19:10:41.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2024-01-17T19:10:41.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2024-01-17T19:10:41.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2024-01-17T19:10:41.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2024-01-17T19:10:41.632</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2024-01-17T19:10:41.638</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2024-01-17T19:10:41.645</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2024-01-17T19:10:41.656</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-01-17T19:10:41.685</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2024-01-17T19:10:41.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2024-01-17T19:10:41.563</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2024-01-17T19:10:41.577</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2024-01-17T19:10:41.598</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2024-01-17T19:10:41.642</Modified>
     </AppxPackagedFile>

@@ -3,6 +3,7 @@ using filmweb.Models;
 using MauiAppDI.Helpers;
 using MauiAppDI.ViewModel;
 using System.Collections.ObjectModel;
+using System.Reflection;
 
 namespace MauiAppDI;
 
@@ -47,7 +48,8 @@ public partial class MainPage : ContentPage
 
 	public MainPage()
 	{
-		int all = ModelMockup.GetLastElement();
+        /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
+        int all = ModelMockup.GetLastElement();
 
         ObservableCollection<Pages> pages = new ObservableCollection<Pages>();
 
@@ -57,6 +59,8 @@ public partial class MainPage : ContentPage
 
         }
         DisplayMsg("Message", (pages[3].PageId).ToString());
+        /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
+
 
         List<filmweb.Models.Film> collectionL = new List<filmweb.Models.Film>();
         collectionL = Film.GetFilms();
@@ -74,9 +78,35 @@ public partial class MainPage : ContentPage
 
     async void NextPageNavigation(System.Object sender, System.EventArgs e)
 	{
-		Console.WriteLine("yoyoyo");
-		await Navigation.PushAsync(new DetailPage(), true);
-	}
+        if(sender is Frame frame)
+        {
+            string v = frame.AutomationId;
+            var q = frame.BindingContext;
+            
+            
+            DisplayMsg(v);
+        }
+
+        else if(sender is Image image)
+        {
+            ImageSource imgSource = image.Source;
+            var id = image.AutomationId;
+            DisplayMsg("Command sent from image", "Image source is "+imgSource+" \nID is: "+id);
+
+            await Navigation.PushAsync(new DetailPage(imgSource, id), true);
+        }
+        
+
+
+        //var framee = (Frame)sender;
+        //var item = (Film)framee.BindingContext;
+        //var id = item.id;
+
+        //string s = e.GetType().GetProperty("Text").GetValue(sender) as string;
+        //DisplayMsg(s);
+		
+        //await Navigation.PushAsync(new DetailPage(), true);
+    }
 
 	async void NextPageMain(System.Object sender, System.EventArgs e)
 	{
@@ -86,6 +116,10 @@ public partial class MainPage : ContentPage
     async void DisplayMsg(string title, string message)
     {
         await DisplayAlert(title, message, "OK");
+    }
+    async void DisplayMsg(string message)
+    {
+        await DisplayAlert("Alert", message, "OK");
     }
 
     async void DisplayMsg(System.Object sender, System.EventArgs e)

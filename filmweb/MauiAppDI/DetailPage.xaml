@@ -6,7 +6,42 @@
              x:DataType="viewmodel:DetailViewModel"
              Title="DetailPage">
     <StackLayout Padding="40">
-        <Button 
+        
+        <HorizontalStackLayout Margin="0,0,0,80">
+
+            
+            
+
+            <Frame Margin="0" Padding="0" WidthRequest="500" HeightRequest="800">
+
+
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".7*"/>
+                        <RowDefinition Height=".2*"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Image x:Name="filmImage" Grid.Row="0" Grid.Column="0" Aspect="Fill"/>
+                    <Label Text="Name of the film" Grid.Column="0" Grid.Row="1" FontSize="40" Margin="0,00,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+
+
+                </Grid>
+            </Frame>
+
+            <VerticalStackLayout Margin="60,0,0,250" VerticalOptions="End">
+                <Label x:Name="filmName" Text="FilmName" FontSize="50"></Label>
+                <Label x:Name="filmDescription" Text="Description bla bla bla bla bla bla" FontSize="20" TextColor="Gray"></Label>
+                <Label x:Name="filmDate"></Label>
+                <Label x:Name="filmRate" Text="Rating"></Label>
+                
+            </VerticalStackLayout>
+
+        </HorizontalStackLayout>
+
+        <!--<Button 
                 Text="Check Internet"
                 FontAttributes="Bold"
                 Command="{Binding CheckInternetCommand}"
@@ -25,14 +60,11 @@
                Text="{Binding Count}"/>
 
         <Label FontSize="50"
-               Text="{Binding Monkey.Name}"/>
+               Text="{Binding Monkey.Name}"/>-->
 
-        <HorizontalStackLayout>
-            <Image Source=""/>
+        <Label x:Name="textId" Text="textId"></Label>
 
-            <Label Text="Yoyoyoyo"/>
-
-        </HorizontalStackLayout>
+        
 
     </StackLayout>
 </ContentPage>

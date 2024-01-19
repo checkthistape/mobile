@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nNKwmkEAjKpXPlbfyNdoV+62rP1CjiAZUimp2bc3Z7YMZyYkbwQR02HpEA4EcrASCtxm1GutVZ1y9+7OO+QBCQ==",
+  "dgSpecHash": "qGdhAevqmR++h1c9C8s5K+homEIVAIR1Ua3CKPaUEvD9Zx2VoY2oo1oeKRwUi/687Fulay1J68QSvTTconiFdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\checkthistape\\Desktop\\MauiApp-DI\\MauiAppDI\\MauiAppDI\\MauiAppDI.csproj",
+  "projectFilePath": "D:\\Coding\\filmWebb\\mobile\\filmweb\\MauiAppDI\\MauiAppDI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\checkthistape\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",
     "C:\\Users\\checkthistape\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",

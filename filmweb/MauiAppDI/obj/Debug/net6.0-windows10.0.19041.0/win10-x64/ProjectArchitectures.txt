@@ -1,2 +1,2 @@
-C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI.Shared\MauiAppDI.Shared.csproj;neutral
-C:\Users\checkthistape\Desktop\MauiApp-DI\MauiAppDI\MauiAppDI\MauiAppDI.csproj;x64
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\MauiAppDI.Shared.csproj;neutral
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\MauiAppDI.csproj;x64
