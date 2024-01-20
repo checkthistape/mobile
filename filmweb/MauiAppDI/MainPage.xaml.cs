@@ -1,7 +1,7 @@
 ﻿//using AndroidX.AppCompat.View.Menu;
 using filmweb.Models;
 using MauiAppDI.Helpers;
-using MauiAppDI.ViewModel;
+//using MauiAppDI.ViewModel;
 using System.Collections.ObjectModel;
 using System.Reflection;
 
@@ -16,14 +16,14 @@ public partial class MainPage : ContentPage
     List<int> actualMaxs = new List<int>();
 
     public ObservableCollection<Pages> pages = new ObservableCollection<Pages>();
+    public ObservableCollection<filmweb.Models.Film> collectionL = new ObservableCollection<filmweb.Models.Film>();
 
-
-    public MainPage(MainViewModel vm)
+    public MainPage()
     {
        
-        List<filmweb.Models.Film> collectionL = new List<filmweb.Models.Film>();
+        
         collectionL = Film.GetFilms();
-        collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId < maxPerPage));
+        collectionL = new ObservableCollection<filmweb.Models.Film>(collectionL.Where(item => item.filmid < maxPerPage));
 
 
         InitializeComponent();
@@ -54,7 +54,7 @@ public partial class MainPage : ContentPage
         });
        
 
-        BindingContext = vm;
+        //BindingContext = new Film();
     }
 
     public MainPage(int n)
@@ -82,16 +82,16 @@ public partial class MainPage : ContentPage
         /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
 
 
-        List<filmweb.Models.Film> collectionL = new List<filmweb.Models.Film>();
+        ObservableCollection<filmweb.Models.Film> collectionL = new ObservableCollection<filmweb.Models.Film>();
         collectionL = Film.GetFilms();
 
         if (n == 1)
         {
-            collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId < actualMaxs[n] && item.FilmId >= 0));
+            collectionL = new ObservableCollection<filmweb.Models.Film>(collectionL.Where(item => item.filmid < actualMaxs[n] && item.filmid >= 0));
         }
         else
         {
-            collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId < actualMaxs[n] && item.FilmId >= actualMaxs[n - 1]));
+            collectionL = new ObservableCollection<filmweb.Models.Film>(collectionL.Where(item => item.filmid < actualMaxs[n] && item.filmid >= actualMaxs[n - 1]));
         }
         
 
@@ -111,45 +111,45 @@ public partial class MainPage : ContentPage
         //DisplayMsg("Alert", "All: "+all);
     }
 
-    public MainPage()
-    {
-        /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
-        int all = ModelMockup.GetLastElement();
+    //public MainPage()
+    //{
+    //    /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
+    //    int all = ModelMockup.GetLastElement();
 
-        for (int i = 0; i <= (all + ((((all / 6) + 1) * 6) - all)); i += 6)
-        {
-            if (i != 0)
-            {
-                pages.Add(new Pages { PageId = actualPage });
-            }
+    //    for (int i = 0; i <= (all + ((((all / 6) + 1) * 6) - all)); i += 6)
+    //    {
+    //        if (i != 0)
+    //        {
+    //            pages.Add(new Pages { PageId = actualPage });
+    //        }
 
-            actualPage++;
-
-
-            actualMaxs.Add(i);
-
-        }
-        actualPage = 0;
-        /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
+    //        actualPage++;
 
 
-        List<filmweb.Models.Film> collectionL = new List<filmweb.Models.Film>();
-        collectionL = Film.GetFilms();
-        collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId < maxPerPage ));
+    //        actualMaxs.Add(i);
+
+    //    }
+    //    actualPage = 0;
+    //    /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
+
+
+    //    ObservableCollection<filmweb.Models.Film> collectionL = new ObservableCollection<filmweb.Models.Film>();
+    //    collectionL = Film.GetFilms();
+    //    collectionL = new ObservableCollection<filmweb.Models.Film>(collectionL.Where(item => item.filmid < maxPerPage ));
 
 
 
-        InitializeComponent();
+    //    InitializeComponent();
 
-        collectionView.ItemsSource = collectionL;
+    //    collectionView.ItemsSource = collectionL;
 
-        Device.BeginInvokeOnMainThread(() =>
-        {
-            pagesHor.ItemsSource = pages;
+    //    Device.BeginInvokeOnMainThread(() =>
+    //    {
+    //        pagesHor.ItemsSource = pages;
 
-        });
+    //    });
 
-    }
+    //}
 
 
     async void NextPageNavigation(System.Object sender, System.EventArgs e)
@@ -172,6 +172,15 @@ public partial class MainPage : ContentPage
             await Navigation.PushAsync(new DetailPage(imgSource, id), true);
         }
 
+    }
+
+    async void GoToAdd(Object sender, System.EventArgs e)
+    {
+        if (sender is Button button)
+        {
+            await Navigation.PushAsync(new AddingPage(), true);
+            //DisplayMsg(sender.GetType().GetFields().ToString());
+        }
     }
 
     async void NextPageMain(System.Object sender, System.EventArgs e)

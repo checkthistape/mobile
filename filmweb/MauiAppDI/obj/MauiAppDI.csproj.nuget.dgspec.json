@@ -402,9 +402,21 @@
               "version": "[6.0.541, )",
               "autoReferenced": true
             },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
             "Syncfusion.Maui.Inputs": {
               "target": "Package",
               "version": "[23.1.36, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -454,6 +466,14 @@
               "version": "[6.0.541, )",
               "autoReferenced": true
             },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
             "Syncfusion.Maui.Inputs": {
               "target": "Package",
               "version": "[23.1.36, )"
@@ -462,6 +482,10 @@
               "target": "Package",
               "version": "[6.0.1, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -511,6 +535,14 @@
               "version": "[6.0.541, )",
               "autoReferenced": true
             },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
             "Syncfusion.Maui.Inputs": {
               "target": "Package",
               "version": "[23.1.36, )"
@@ -519,6 +551,10 @@
               "target": "Package",
               "version": "[6.0.1, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -575,9 +611,21 @@
               "version": "[10.0.22000.194, )",
               "autoReferenced": true
             },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
             "Syncfusion.Maui.Inputs": {
               "target": "Package",
               "version": "[23.1.36, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [

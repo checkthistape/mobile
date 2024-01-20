@@ -1,7 +1,7 @@
 using filmweb.Models;
 using MauiAppDI.Helpers;
-using MauiAppDI.ViewModel;
-
+//using MauiAppDI.ViewModel;
+using System.Collections.ObjectModel;
 using Film = filmweb.Models.ModelMockup;
 
 namespace MauiAppDI;
@@ -13,16 +13,17 @@ public partial class DetailPage : ContentPage
     string _filmId;
     int _rating;
 
-    List<filmweb.Models.Film> collectionL = new List<filmweb.Models.Film>();
+    
+    ObservableCollection<filmweb.Models.Film> collectionL = new ObservableCollection<filmweb.Models.Film>();
 
     List<Stars> stars = new List<Stars>();
 
-    public DetailPage(DetailViewModel vm)
-	{
-       // DisplayMsg("DetailPage(DetailViewModel vm)", "This message is being showed bcs you have add");
-        InitializeComponent();
-		BindingContext = vm;
-	}
+ //   public DetailPage()
+	//{
+ //      // DisplayMsg("DetailPage(DetailViewModel vm)", "This message is being showed bcs you have add");
+ //       InitializeComponent();
+	//	BindingContext = vm;
+	//}
 
 	public DetailPage()
 	{
@@ -46,10 +47,11 @@ public partial class DetailPage : ContentPage
 
         _imageSource = i;
         _filmId = FilmId;
-        _rating = collectionL[int.Parse(_filmId)].Rating;
+        //_rating = collectionL[int.Parse(_filmId)].film_rating;
+        _rating = (int)collectionL[int.Parse(_filmId)].film_rating;
 
 
-        for(int j=6; j>0; j--)
+        for (int j=6; j>0; j--)
         {
             if (j > (6-_rating))
             {
@@ -71,7 +73,7 @@ public partial class DetailPage : ContentPage
         {
             //textId.Text = _filmId;
             filmImage.Source = _imageSource;
-            filmName.Text = bigFilmName.Text = collectionL[int.Parse(_filmId)].FilmName;
+            filmName.Text = bigFilmName.Text = collectionL[int.Parse(_filmId)].filmname;
             rate.ItemsSource = stars;
            // bigFilmName.Text = collectionL[int.Parse(_filmId)].FilmName;
 

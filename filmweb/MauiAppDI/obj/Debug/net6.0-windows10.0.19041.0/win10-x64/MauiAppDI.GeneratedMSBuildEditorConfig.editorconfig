@@ -9,6 +9,12 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiAppDI
 build_property.ProjectDir = D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\
 
+[D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/AddingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppDI.AddingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddingPage.xaml
+
 [D:/Coding/filmWebb/mobile/filmweb/MauiAppDI/AnotherPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppDI.AnotherPage.xaml

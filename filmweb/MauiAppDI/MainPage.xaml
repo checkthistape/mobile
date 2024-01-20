@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewmodel="clr-namespace:MauiAppDI.ViewModel"
              x:Class="MauiAppDI.MainPage">
+             <!--xmlns:viewmodel="clr-namespace:MauiAppDI.ViewModel"-->
+             
              <!--:DataType="viewmodel:MainViewModel"-->
              
              
@@ -10,31 +11,7 @@
     <ScrollView>
         <VerticalStackLayout Spacing="25" Padding="30">
 
-            <!--<Label 
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label 
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level1"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Label 
-                Text="{Binding Count, StringFormat='Current count: {0}'}"
-                FontSize="18"
-                FontAttributes="Bold"
-                HorizontalOptions="Center" />
-
-            <Button 
-                Text="Click me"
-                FontAttributes="Bold"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Command="{Binding IncrementCountCommand}"
-                HorizontalOptions="Center" />-->
+           
 
             <HorizontalStackLayout>
               
@@ -70,7 +47,7 @@
                                             <RowDefinition Height=".1*"/>
                                         </Grid.RowDefinitions>
 
-                                        <Image AutomationId="{Binding FilmId}" Source="{Binding ImageURL}" Grid.Column="0" Grid.Row="0" MaximumWidthRequest="600" MaximumHeightRequest="900" WidthRequest="600" HeightRequest="900" HorizontalOptions="Start" IsEnabled="False">
+                                        <Image AutomationId="{Binding filmid}" Source="{Binding filmImageURL}" Grid.Column="0" Grid.Row="0" MaximumWidthRequest="600" MaximumHeightRequest="900" WidthRequest="600" HeightRequest="900" HorizontalOptions="Start" IsEnabled="False">
                                             <Image.GestureRecognizers>
                                                 <TapGestureRecognizer Tapped="NextPageNavigation" NumberOfTapsRequired="1"/>
                                                 
@@ -81,7 +58,7 @@
 
                                         <HorizontalStackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="150" Grid.RowSpan="5">
                                             
-                                            <Label Text="{Binding FilmName}" FontSize="30" FontAttributes="Bold" FontFamily="Sheron"/>
+                                            <Label Text="{Binding filmname}" FontSize="30" FontAttributes="Bold" FontFamily="Sheron"/>
                                             
                                         </HorizontalStackLayout>
                                     </Grid>
@@ -94,7 +71,7 @@
                                             <TapGestureRecognizer Tapped="NextPageNavigation" NumberOfTapsRequired="1"/>
                                         </VerticalStackLayout.GestureRecognizers>
                                         
-                                        <Label FontSize="40" Text="{Binding FilmName}"></Label>
+                                        <Label FontSize="40" Text="{Binding filmname}"></Label>
                                         <Label Text="yoyo" FontSize="30" FontAttributes="None" FontFamily="Sheron" TextColor="Gray"/>
                                         <Label Text="Rating"></Label>
                                         
@@ -213,6 +190,10 @@
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
                     </CollectionView>
+
+
+                    
+                    
                 </HorizontalStackLayout>
                 
                
@@ -276,8 +257,20 @@
                 FontAttributes="Bold"
                 Clicked="NextPageMain"
                 HorizontalOptions="Center" />-->
-           
 
+            <Button Text="+" 
+                    Clicked="GoToAdd"
+                    FontAttributes="Bold"
+                    FontSize="30"
+                BackgroundColor="White" 
+                CornerRadius="50"
+                WidthRequest="80"
+                    Margin="00, 00, 90,00 "
+                HeightRequest="80"
+                TranslationX="00" 
+                TranslationY="-90"
+                    HorizontalOptions="End"
+                VerticalOptions="End"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

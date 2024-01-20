@@ -1,6 +1,6 @@
 ﻿using MauiAppDI.Helpers;
 using MauiAppDI.PlatformImplementations;
-using MauiAppDI.ViewModel;
+//using MauiAppDI.ViewModel;
 
 
 namespace MauiAppDI;
@@ -21,8 +21,8 @@ public static class MauiProgram
 		builder.Services.AddSingleton<IConnectivity>((e) => Connectivity.Current);
 		builder.Services.AddSingleton<IToast>((e) => new Toaster());
 
-		builder.Services.AddSingleton<MainViewModel>();
-		builder.Services.AddTransient<DetailViewModel>();
+		//builder.Services.AddSingleton<MainViewModel>();
+		//builder.Services.AddTransient<DetailViewModel>();
 	
 
 		builder.Services.AddSingleton<MainPage>();
