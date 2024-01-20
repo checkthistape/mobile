@@ -2,6 +2,7 @@
 using MauiAppDI.PlatformImplementations;
 using MauiAppDI.ViewModel;
 
+
 namespace MauiAppDI;
 
 public static class MauiProgram

@@ -22,14 +22,7 @@ public partial class DetailViewModel : ObservableObject
 
     }
 
-    [RelayCommand]
-    async Task CheckInternet()
-    {
-        var hasInternet = connectivity?.NetworkAccess == NetworkAccess.Internet;
-
-        await App.Current.MainPage.DisplayAlert("Has Internet", hasInternet ? "YES!" : "NO!", "OK");
-    }
-
+    
     [RelayCommand]
     Task Back() => Shell.Current.GoToAsync("..");
 

@@ -694,3 +694,12 @@ D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0
 D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-100.png
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_gold.scale-100.png
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Syncfusion.Licensing.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Core.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.DataSource.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.GridCommon.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Inputs.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.ListView.dll
+D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\en-US\Syncfusion.Maui.ListView.resources.dll

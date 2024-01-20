@@ -2,9 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppDI.DetailPage"             
-             xmlns:viewmodel="clr-namespace:MauiAppDI.ViewModel"
-             x:DataType="viewmodel:DetailViewModel"
-             Title="DetailPage">
+             xmlns:viewmodel="clr-namespace:MauiAppDI.ViewModel">
     <StackLayout Padding="40">
         
         <HorizontalStackLayout Margin="0,0,0,80">
@@ -12,7 +10,7 @@
             
             
 
-            <Frame Margin="0" Padding="0" WidthRequest="500" HeightRequest="800">
+            <Frame Margin="0" Padding="0" WidthRequest="450" HeightRequest="800">
 
 
                 <Grid>
@@ -24,7 +22,7 @@
                     </Grid.RowDefinitions>
 
                     <Image x:Name="filmImage" Grid.Row="0" Grid.Column="0" Aspect="Fill"/>
-                    <Label Text="Name of the film" Grid.Column="0" Grid.Row="1" FontSize="40" Margin="0,00,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Label x:Name="bigFilmName" Text="Name of the film" Grid.Column="0" Grid.Row="1" FontSize="40" Margin="0,00,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
 
 
 
@@ -35,34 +33,44 @@
                 <Label x:Name="filmName" Text="FilmName" FontSize="50"></Label>
                 <Label x:Name="filmDescription" Text="Description bla bla bla bla bla bla" FontSize="20" TextColor="Gray"></Label>
                 <Label x:Name="filmDate"></Label>
-                <Label x:Name="filmRate" Text="Rating"></Label>
                 
+                <!--<StackLayout Padding="20" x:Name="rate">
+                    
+                    <StackLayout Orientation="Horizontal">
+                        
+                        --><!--<Image Source="star.png" WidthRequest="40" HeightRequest="40" IsVisible="{Binding .}" />--><!--
+                        <Image Source="{Binding starImage}" WidthRequest="40" HeightRequest="40" IsVisible="{Binding .}" />
+                        
+                        --><!-- Repeat the above lines for each star, adjusting the condition accordingly -->
+                        <!-- For simplicity, assuming star_empty.png and star_filled.png are your star images --><!--
+                    </StackLayout>
+                </StackLayout>-->
+
+
+                <CollectionView x:Name="rate" SelectionMode="None" HorizontalOptions="Center" >
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Horizontal"/>
+                    </CollectionView.ItemsLayout>
+
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <HorizontalStackLayout HorizontalOptions="Center" WidthRequest="10" VerticalOptions="Center"  Margin="0, 20, 0, 0" Padding="0">
+
+                                <Image Source="{Binding starImage}" WidthRequest="40" HeightRequest="40" Margin="0, 0, 0, 0" />
+                                
+                            </HorizontalStackLayout>
+
+
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
             </VerticalStackLayout>
 
         </HorizontalStackLayout>
 
-        <!--<Button 
-                Text="Check Internet"
-                FontAttributes="Bold"
-                Command="{Binding CheckInternetCommand}"
-                HorizontalOptions="Center" />
-
-        <Button Text="Go Back"
-                Command="{Binding BackCommand}"
-                HorizontalOptions="Center"/>
-
-
-        <Button Text="Go to Another One"
-                Command="{Binding GoToAnotherCommand}"
-                HorizontalOptions="Center"/>
-
-        <Label FontSize="50"
-               Text="{Binding Count}"/>
-
-        <Label FontSize="50"
-               Text="{Binding Monkey.Name}"/>-->
-
-        <Label x:Name="textId" Text="textId"></Label>
+        <!--<Label x:Name="textId" Text="textId"></Label>-->
 
         
 

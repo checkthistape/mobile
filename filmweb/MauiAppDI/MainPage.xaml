@@ -144,13 +144,20 @@
 
                     </CollectionView.ItemTemplate>
                 </CollectionView>-->
-
-                <ListView x:Name="pagesHor">
-                    <!--<ListView.ItemsPanel>
+            
+                
+                
+                
+                
+                
+                
+                
+                <!--<ListView x:Name="pagesHor" HorizontalOptions="Fill">
+                    --><!--<ListView.ItemsPanel>
                         <ItemsPanelTemplate>
                             <StackPanel Orientation="Horizontal" />
                         </ItemsPanelTemplate>
-                    </ListView.ItemsPanel>-->
+                    </ListView.ItemsPanel>--><!--
 
 
                     <ListView.ItemTemplate>
@@ -158,7 +165,7 @@
                             <ViewCell>
                                 <Grid Padding="10">
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="400"/>
+                                        <ColumnDefinition Width="100"/>
 
                                     </Grid.ColumnDefinitions>
                                     <Grid.RowDefinitions>
@@ -167,7 +174,7 @@
                                     </Grid.RowDefinitions>
 
                                     <HorizontalStackLayout>
-                                        <Label Grid.Column="0" Grid.Row="0"
+                                        <Label Grid.Column="1" Grid.Row="0"
                            Text="{Binding PageId}"
                            FontAttributes="Bold" />
                                     </HorizontalStackLayout>
@@ -178,7 +185,38 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                     
-                </ListView>
+                </ListView>-->
+
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <CollectionView x:Name="pagesHor" SelectionMode="Single" HorizontalOptions="Center" SelectionChanged="NextPageMain">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Horizontal" />
+                            
+                        </CollectionView.ItemsLayout>
+
+                        <CollectionView.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="NextPageMain"></TapGestureRecognizer>
+                        </CollectionView.GestureRecognizers>
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <HorizontalStackLayout HorizontalOptions="End" VerticalOptions="Center" WidthRequest="30" HeightRequest="30">
+                                    <Label Text="{Binding PageId}"  WidthRequest="10" HeightRequest="30" VerticalOptions="Center" FontSize="20">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="NextPageMain"></TapGestureRecognizer>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                </HorizontalStackLayout>
+                                
+                                    
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </HorizontalStackLayout>
+                
+               
+
 
                 <!--<CollectionView x:Name="pagesHor">
                     <CollectionView.ItemTemplate>
@@ -212,7 +250,7 @@
             
             
             
-            <Button 
+            <!--<Button 
                 Text="Navigate"
                 FontAttributes="Bold"
                 Command="{Binding NavigateCommand}"
@@ -237,20 +275,8 @@
                 Text="Go To MainPage"
                 FontAttributes="Bold"
                 Clicked="NextPageMain"
-                HorizontalOptions="Center" />
-
-            <Button 
-                Text="Message Alert"
-                FontAttributes="Bold"
-                Clicked="DisplayMsg"
-                HorizontalOptions="Center" />
-
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                WidthRequest="250"
-                HeightRequest="310"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center" />-->
+           
 
         </VerticalStackLayout>
     </ScrollView>

@@ -727,7 +727,7 @@
     <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.27\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\communitytoolkit.mvvm\8.0.0\lib\net6.0\CommunityToolkit.Mvvm.dll">
+    <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
@@ -795,6 +795,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\microsoft.windowsappsdk\1.1.3\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\syncfusion.licensing\23.1.36\lib\net6.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\syncfusion.maui.core\23.1.36\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
+      <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\syncfusion.maui.datasource\23.1.36\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.DataSource.dll">
+      <PackagePath>Syncfusion.Maui.DataSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\syncfusion.maui.gridcommon\23.1.36\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.GridCommon.dll">
+      <PackagePath>Syncfusion.Maui.GridCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\syncfusion.maui.inputs\23.1.36\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.Inputs.dll">
+      <PackagePath>Syncfusion.Maui.Inputs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\syncfusion.maui.listview\23.1.36\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.ListView.dll">
+      <PackagePath>Syncfusion.Maui.ListView.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\syncfusion.maui.listview\23.1.36\lib\net6.0-windows10.0.19041.0\en-US\Syncfusion.Maui.ListView.resources.dll">
+      <PackagePath>en-US\Syncfusion.Maui.ListView.resources.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -945,6 +966,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-100.png">
+      <PackagePath>star.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_gold.scale-100.png">
+      <PackagePath>star_gold.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

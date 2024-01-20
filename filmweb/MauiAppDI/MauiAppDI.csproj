@@ -47,7 +47,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+	  <None Remove="Resources\Images\star.png" />
+	  <None Remove="Resources\Images\star_gold.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+	  <PackageReference Include="Syncfusion.Maui.Inputs" Version="23.1.36" />
 	</ItemGroup>
 
 	<ItemGroup>

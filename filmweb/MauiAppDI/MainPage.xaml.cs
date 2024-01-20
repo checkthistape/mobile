@@ -11,106 +11,184 @@ using Film = filmweb.Models.ModelMockup;
 
 public partial class MainPage : ContentPage
 {
-	int maxPerPage = 6;
+    int maxPerPage = 6;
+    int actualPage = 0;
+    List<int> actualMaxs = new List<int>();
 
     public ObservableCollection<Pages> pages = new ObservableCollection<Pages>();
 
 
     public MainPage(MainViewModel vm)
-	{
-        int all = ModelMockup.GetLastElement();
+    {
+       
+        List<filmweb.Models.Film> collectionL = new List<filmweb.Models.Film>();
+        collectionL = Film.GetFilms();
+        collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId < maxPerPage));
 
-        //ObservableCollection<Pages> pages = new ObservableCollection<Pages>();
-
-
-
-
-        for (int i = 0; i < all; i++)
-        {
-            pages.Add(new Pages { PageId = i, YourProperty = "qqqqq" });
-        }
-
-            //ObservableCollection<filmweb.Models.Film> collectionOb = new ObservableCollection<filmweb.Models.Film>();
-            List<filmweb.Models.Film> collectionL = new List<filmweb.Models.Film>();
-		collectionL = Film.GetFilms();
-		collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId < maxPerPage));
-
-        //collectionView.ItemsSource = collectionL;
-        //pagesHor.ItemsSource = pages;
 
         InitializeComponent();
 
-		collectionView.ItemsSource = collectionL;
-		pagesHor.ItemsSource = pages;
-        //collectionView.ItemsSource = Film.GetFilms();
-        BindingContext = vm;
-	}
+        collectionView.ItemsSource = collectionL;
 
-	public MainPage()
-	{
+        int all = ModelMockup.GetLastElement();
+
+        for (int i = 0; i <= (all + ((((all / 6) + 1) * 6) - all)); i += 6)
+        {
+            if (i != 0)
+            {
+                pages.Add(new Pages { PageId = actualPage });
+            }
+
+            actualPage++;
+
+
+            actualMaxs.Add(i);
+
+        }
+        actualPage = 0;
+
+        Device.BeginInvokeOnMainThread(() =>
+        {
+            pagesHor.ItemsSource = pages;
+
+        });
+       
+
+        BindingContext = vm;
+    }
+
+    public MainPage(int n)
+    {
         /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
         int all = ModelMockup.GetLastElement();
 
-        ObservableCollection<Pages> pages = new ObservableCollection<Pages>();
-
-        for (int i = 0; i < all; i++)
+        // Working auto pages quantity calculating (for example, if db contains 14 films, it should create 3 pages 
+        for (int i = 0; i <= (all + ((((all / 6) + 1) * 6) - all)); i += 6)
         {
-           pages.Add( new Pages { PageId = i, YourProperty="qqqqq" });
+            if (i != 0)
+            {
+                pages.Add(new Pages { PageId = actualPage });
+            }
+            
+            actualPage++;
+            
+
+            actualMaxs.Add(i);
 
         }
-        DisplayMsg("Message", (pages[3].PageId).ToString());
+
+
+        actualPage = 0;
         /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
 
 
         List<filmweb.Models.Film> collectionL = new List<filmweb.Models.Film>();
         collectionL = Film.GetFilms();
-        collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId > maxPerPage));
 
-        //collectionView.ItemsSource = collectionL;
-        //pagesHor.ItemsSource = pages;
+        if (n == 1)
+        {
+            collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId < actualMaxs[n] && item.FilmId >= 0));
+        }
+        else
+        {
+            collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId < actualMaxs[n] && item.FilmId >= actualMaxs[n - 1]));
+        }
+        
+
+        
 
         InitializeComponent();
 
         collectionView.ItemsSource = collectionL;
-        pagesHor.ItemsSource = pages;
+
+        Device.BeginInvokeOnMainThread(() =>
+        {
+            pagesHor.ItemsSource = pages;
+
+        });
+
+        //DisplayMsg("Alert", "First element "+ actualMaxs[0].ToString());
+        //DisplayMsg("Alert", "All: "+all);
+    }
+
+    public MainPage()
+    {
+        /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
+        int all = ModelMockup.GetLastElement();
+
+        for (int i = 0; i <= (all + ((((all / 6) + 1) * 6) - all)); i += 6)
+        {
+            if (i != 0)
+            {
+                pages.Add(new Pages { PageId = actualPage });
+            }
+
+            actualPage++;
+
+
+            actualMaxs.Add(i);
+
+        }
+        actualPage = 0;
+        /*.~~~~~~~.Pages and navigation.~~~~~~~.*/
+
+
+        List<filmweb.Models.Film> collectionL = new List<filmweb.Models.Film>();
+        collectionL = Film.GetFilms();
+        collectionL = new List<filmweb.Models.Film>(collectionL.Where(item => item.FilmId < maxPerPage ));
+
+
+
+        InitializeComponent();
+
+        collectionView.ItemsSource = collectionL;
+
+        Device.BeginInvokeOnMainThread(() =>
+        {
+            pagesHor.ItemsSource = pages;
+
+        });
 
     }
 
+
     async void NextPageNavigation(System.Object sender, System.EventArgs e)
-	{
-        if(sender is Frame frame)
+    {
+        if (sender is Frame frame)
         {
             string v = frame.AutomationId;
             var q = frame.BindingContext;
-            
-            
+
+
             DisplayMsg(v);
         }
 
-        else if(sender is Image image)
+        else if (sender is Image image)
         {
             ImageSource imgSource = image.Source;
             var id = image.AutomationId;
-            DisplayMsg("Command sent from image", "Image source is "+imgSource+" \nID is: "+id);
+            //DisplayMsg("Command sent from image", "Image source is " + imgSource + " \nID is: " + id);
 
             await Navigation.PushAsync(new DetailPage(imgSource, id), true);
         }
-        
 
-
-        //var framee = (Frame)sender;
-        //var item = (Film)framee.BindingContext;
-        //var id = item.id;
-
-        //string s = e.GetType().GetProperty("Text").GetValue(sender) as string;
-        //DisplayMsg(s);
-		
-        //await Navigation.PushAsync(new DetailPage(), true);
     }
 
-	async void NextPageMain(System.Object sender, System.EventArgs e)
-	{
-        await Navigation.PushAsync(new MainPage(), true);
+    async void NextPageMain(System.Object sender, System.EventArgs e)
+    {
+        if(sender is Label label)
+        {
+            var txt = label.Text;
+            await Navigation.PushAsync(new MainPage(int.Parse(txt)), true);
+            //DisplayMsg(sender.GetType().GetFields().ToString());
+        }
+        else if( sender is Label labell )
+        {
+            await Navigation.PushAsync(new MainPage(), true);
+            DisplayMsg("Yo");
+        }
+
+         
     }
 
     async void DisplayMsg(string title, string message)
@@ -127,12 +205,11 @@ public partial class MainPage : ContentPage
         await DisplayAlert("Alert", "Message", "OK");
     }
 
-    
+
 
     public class Pages
     {
         public int PageId { get; set; }
-        public string YourProperty { get; set; }
+        
     }
 }
-
