@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-20T00:48:11.625</Modified>
+      <Modified>2024-01-20T00:56:32.902</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-20T00:48:11.194</Modified>
+      <Modified>2024-01-20T00:56:31.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiAppDI.runtimeconfig.json">
       <PackagePath>MauiAppDI.runtimeconfig.json</PackagePath>
@@ -44,7 +44,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiAppDI.dll">
       <PackagePath>MauiAppDI.dll</PackagePath>
-      <Modified>2024-01-20T00:48:10.316</Modified>
+      <Modified>2024-01-20T00:56:30.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI.Shared\bin\Debug\net6.0-windows10.0.19041.0\MauiAppDI.Shared.dll">
       <PackagePath>MauiAppDI.Shared.dll</PackagePath>
@@ -52,7 +52,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiAppDI.exe</PackagePath>
-      <Modified>2024-01-20T00:48:10.336</Modified>
+      <Modified>2024-01-20T00:56:30.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\checkthistape\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1100,7 +1100,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Coding\filmWebb\mobile\filmweb\MauiAppDI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiAppDI.deps.json">
       <PackagePath>MauiAppDI.deps.json</PackagePath>
-      <Modified>2024-01-20T00:48:11.435</Modified>
+      <Modified>2024-01-20T00:56:32.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
